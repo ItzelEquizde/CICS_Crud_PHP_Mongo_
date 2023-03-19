@@ -28,13 +28,13 @@
                     </thead>
                     <tbody>
                     <?php
-                        foreach($datos as $item){
+                        //foreach($datos as $item){
                     ?>
                         <tr>
-                            <td> <?php $item->paterno; ?> </td>
-                            <td> <?php $item->materno; ?> </td>
-                            <td> <?php $item->nombre; ?> </td>
-                            <td> <?php $item->fecha_nacimiento; ?> </td>
+                            <td> <?php #$item->paterno; ?> </td>
+                            <td> <?php #$item->materno; ?> </td>
+                            <td> <?php #$item->nombre; ?> </td>
+                            <td> <?php #$item->fecha_nacimiento; ?> </td>
                             <td class="text-center">
                                 <form action="" method="post">
                                     <button class="btn btn-warning">
@@ -50,7 +50,7 @@
                                 </form>
                             </td>
                         </tr>
-                    <?php } ?>
+                    <?php// } ?>
                     </tbody>
                 </table>
             </div>
