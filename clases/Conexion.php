@@ -17,7 +17,7 @@
                                     $servidor . ";" .
                                     $puerto . "/" .
                                     $baseDatos;
-                $cliente = new MongoDB\Cient(ScadenaConexion);
+                $cliente = new MongoDB\Cient($cadenaConexion);
                 return $cliente->selectDatabase($baseDatos);
             } catch (\Throwable $th) {
                 return $th->getMessage();

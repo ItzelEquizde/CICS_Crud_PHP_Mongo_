@@ -1,4 +1,5 @@
-git remote<?php include "./header.php"; ?>
+<?php include "./header.php"; ?>
+
 <div class="container">
         <div class="row">
             <div class="col">            
